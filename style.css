@@ -383,15 +383,15 @@ form:hover .pesquisar-button {
     height: 100%;
     width: 211.6px;
     min-width: 211.6px;
-    background: var(--cor-cinza-escuro);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: var(--cor-cinza-escuro) url(images/play_circle_FILL0_wght400_GRAD0_opsz48.svg);
+    background-repeat: no-repeat;
+    background-size: auto 60px;
+    background-position: center center; 
+    transition: background .2s;  
 }
 
-.video-aside > img {
-    height: 60px;
-    width: auto;
+.video-aside:hover {
+    background-color: var(--cor-cinza-claro);
 }
 
 .video-bars {
